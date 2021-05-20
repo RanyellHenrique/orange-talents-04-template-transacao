@@ -1,5 +1,8 @@
 package br.com.zupedu.ranyell.transacao.transacao;
 
+import br.com.zupedu.ranyell.transacao.cartao.Cartao;
+import br.com.zupedu.ranyell.transacao.estabelecimento.Estabelecimento;
+
 import javax.persistence.*;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
@@ -31,5 +34,25 @@ public class Transacao {
         this.efetivadaEm = efetivadaEm;
         this.estabelecimento = estabelecimento;
         this.cartao = cartao;
+    }
+
+    public String getIdTransacao() {
+        return idTransacao;
+    }
+
+    public BigDecimal getValor() {
+        return valor;
+    }
+
+    public LocalDateTime getEfetivadaEm() {
+        return efetivadaEm;
+    }
+
+    public Estabelecimento getEstabelecimento() {
+        return estabelecimento;
+    }
+
+    public Cartao getCartao() {
+        return cartao;
     }
 }

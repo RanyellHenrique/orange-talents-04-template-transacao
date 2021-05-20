@@ -1,4 +1,4 @@
-package br.com.zupedu.ranyell.transacao.transacao;
+package br.com.zupedu.ranyell.transacao.estabelecimento;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotBlank;
@@ -23,4 +23,15 @@ public class Estabelecimento {
         this.endereco = endereco;
     }
 
+    public String getNome() {
+        return nome;
+    }
+
+    public String getCidade() {
+        return cidade;
+    }
+
+    public String getEndereco() {
+        return endereco;
+    }
 }

@@ -1,6 +1,6 @@
 package br.com.zupedu.ranyell.transacao.mensageiro;
 
-import br.com.zupedu.ranyell.transacao.transacao.Cartao;
+import br.com.zupedu.ranyell.transacao.cartao.Cartao;
 import br.com.zupedu.ranyell.transacao.transacao.Transacao;
 
 import java.math.BigDecimal;

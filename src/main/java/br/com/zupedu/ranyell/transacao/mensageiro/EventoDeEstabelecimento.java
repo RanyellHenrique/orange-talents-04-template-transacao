@@ -1,6 +1,6 @@
 package br.com.zupedu.ranyell.transacao.mensageiro;
 
-import br.com.zupedu.ranyell.transacao.transacao.Estabelecimento;
+import br.com.zupedu.ranyell.transacao.estabelecimento.Estabelecimento;
 
 public class EventoDeEstabelecimento {
 

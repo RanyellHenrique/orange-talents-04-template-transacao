@@ -1,7 +1,7 @@
 package br.com.zupedu.ranyell.transacao.mensageiro;
 
-import br.com.zupedu.ranyell.transacao.transacao.Cartao;
-import br.com.zupedu.ranyell.transacao.transacao.CartaoRepository;
+import br.com.zupedu.ranyell.transacao.cartao.Cartao;
+import br.com.zupedu.ranyell.transacao.cartao.CartaoRepository;
 import br.com.zupedu.ranyell.transacao.transacao.TransacaoRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

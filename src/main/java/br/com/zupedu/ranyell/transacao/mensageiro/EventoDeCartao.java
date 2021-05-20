@@ -1,6 +1,6 @@
 package br.com.zupedu.ranyell.transacao.mensageiro;
 
-import br.com.zupedu.ranyell.transacao.transacao.Cartao;
+import br.com.zupedu.ranyell.transacao.cartao.Cartao;
 
 public class EventoDeCartao {
 

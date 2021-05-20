@@ -1,4 +1,4 @@
-package br.com.zupedu.ranyell.transacao.transacao;
+package br.com.zupedu.ranyell.transacao.cartao;
 
 import javax.persistence.*;
 import javax.validation.constraints.Email;
